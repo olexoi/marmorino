@@ -44,7 +44,14 @@ $('.modal-svc').on('click', function (e) {
 
 $('.open-menu').on('click', function () {
     $('.mobile-menu').toggleClass('display-none');
+    $(this).addClass('rotate');
+    $('.close-menu').removeClass('display-none').removeClass('rotate').addClass('rotate-2');
 });
+$('.close-menu').on('click', function () {
+    $('.mobile-menu').toggleClass('display-none');
+    $(this).addClass('rotate');
+    $('.open-menu').removeClass('rotate');
+})
 $('.menu-item').on('click', function () {
     $('.mobile-menu').addClass('display-none');
 })

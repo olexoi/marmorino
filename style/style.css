@@ -1,3 +1,11 @@
+section {
+  overflow: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 a {
   cursor: pointer;
 }

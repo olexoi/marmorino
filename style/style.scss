@@ -1,10 +1,16 @@
 // @media screen and (min-width: 1200px){
-    $main-font: 'Ruda', sans-serif;
+$main-font: 'Ruda', sans-serif;
 $secondary-font: 'Montserrat Alternates', sans-serif;
 $big-font: 'Rufina', sans-serif;
 $number-font:  'Rozha One', serif;
 
 
+section{
+    overflow:hidden;
+}
+body{
+    overflow-x: hidden;
+}
 a{
     cursor: pointer;
 }

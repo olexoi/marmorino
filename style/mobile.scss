@@ -182,4 +182,21 @@
             }
         }
     }
+    .rotate{
+        transform: rotate(90deg);
+        // animation: name duration timing-function delay iteration-count direction fill-mode;
+        opacity: 0;
+        transition-duration: 2s;
+        display: none;
+    }
+    .rotate-2{
+        transform: rotate(-90deg);
+        // animation: name duration timing-function delay iteration-count direction fill-mode;
+        opacity: 1;
+        transition-duration: 2s;
+    }
+    .close-menu{
+        position: absolute;
+
+    }
 }

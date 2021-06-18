@@ -178,5 +178,23 @@
     right: 20px;
     top: 24px;
   }
+  .rotate {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    opacity: 0;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+    display: none;
+  }
+  .rotate-2 {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    opacity: 1;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+  }
+  .close-menu {
+    position: absolute;
+  }
 }
 /*# sourceMappingURL=mobile.css.map */
