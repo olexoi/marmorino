@@ -4,6 +4,13 @@ $secondary-font: 'Montserrat Alternates', sans-serif;
 $big-font: 'Rufina', sans-serif;
 $number-font:  'Rozha One', serif;
 
+
+a{
+    cursor: pointer;
+}
+.open-modal{
+    cursor: pointer;
+}
 .display-none{
     display: none !important;
 }
