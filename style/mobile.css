@@ -1,0 +1,182 @@
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+  .container-fluid {
+    padding: 0 30px !important;
+  }
+  .our-svc-content-box {
+    padding: 0 20px !important;
+  }
+  .mobile-display-none {
+    display: none !important;
+  }
+  .show-mobile {
+    display: block !important;
+  }
+  .section-name {
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
+  .contact-form {
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .mobile-menu {
+    position: fixed;
+    top: 108px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-page-content .main-text h2 {
+    font-size: 1rem;
+  }
+  .main-page-content .main-text h1 {
+    font-size: 3rem;
+  }
+  .main-page-content .main-text .main-page-btn {
+    font-size: 1rem;
+  }
+  .main-page-content .main-text .arrow img {
+    height: 25px;
+  }
+  #about-us {
+    margin-top: 60px;
+  }
+  #about-us .text-content p {
+    font-size: 1rem;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  #our-svc {
+    margin-top: 60px;
+  }
+  #our-svc .section-name {
+    margin-left: 10px;
+  }
+  #our-svc .item {
+    height: 225px;
+  }
+  #our-svc .item h4 {
+    font-size: 2rem;
+  }
+  #our-svc .item .open-modal {
+    font-size: 0.7rem;
+  }
+  #our-svc .owl-prev, #our-svc .owl-next {
+    bottom: 25%;
+  }
+  #our-works {
+    margin-top: 50px;
+  }
+  #our-works .section-name {
+    margin-bottom: 0;
+  }
+  #our-works h4 {
+    font-size: 2rem;
+  }
+  #our-works .open-modal {
+    font-size: 0.7rem;
+  }
+  #our-works .work-number {
+    font-size: 3rem;
+  }
+  #our-works .work-box {
+    height: 225px;
+    margin-top: 100px;
+  }
+  #our-works .work-number-box {
+    margin-top: 100px;
+  }
+  #our-works .line {
+    display: none;
+  }
+  #contact-with-us {
+    margin-top: 50px;
+  }
+  #contact-with-us .mapouter {
+    height: 225px;
+    margin-bottom: 50px;
+  }
+  #contact-with-us .gmap_canvas {
+    height: 225px;
+    margin-bottom: 50px;
+  }
+  #contact-with-us .contact-form {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #contact-with-us .contact-form input {
+    font-size: 1rem;
+    height: 40px;
+  }
+  #contact-with-us .contact-form textarea {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+  #contact-with-us .contact-form button {
+    font-size: 1rem;
+  }
+  .footer {
+    margin-top: 60px;
+  }
+  .footer h2 {
+    font-size: 2rem;
+  }
+  .footer p {
+    font-size: 1rem;
+  }
+  .footer .logo {
+    height: 150px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer p {
+    margin-right: 10px;
+  }
+  footer .social-box {
+    margin-top: 60px;
+  }
+  footer .social-box p {
+    font-size: 1rem;
+  }
+  footer .social-box img {
+    width: 30px;
+  }
+  .modal-cover .modal-svc {
+    width: 90%;
+    left: 5%;
+  }
+  .modal-cover .modal-svc .content {
+    padding: 20px;
+  }
+  .modal-cover .modal-svc .content img {
+    margin: 20px 0;
+  }
+  .modal-cover .modal-svc .content p {
+    font-size: 1rem;
+    margin: 20px 0;
+  }
+  .modal-cover .modal-svc .content h4 {
+    font-size: 2rem;
+  }
+  .modal-cover .modal-svc .content .close-btn {
+    width: 30px;
+    right: 20px;
+    top: 24px;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */
