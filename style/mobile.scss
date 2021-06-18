@@ -58,7 +58,7 @@
         }
     }
     #about-us{
-        margin-top: 60px;
+        padding-top: 135px !important;
         .text-content{
             p{
                 font-size: 1rem;
@@ -68,7 +68,7 @@
         }
     }
     #our-svc{
-        margin-top: 60px;
+        padding-top: 135px !important;
         .section-name{
         margin-left: 10px;
         }
@@ -86,7 +86,7 @@
        }
     }
     #our-works{
-        margin-top: 50px;
+        padding-top: 135px !important;
         .section-name{
             margin-bottom: 0;
         }
@@ -113,7 +113,7 @@
         }
     }
     #contact-with-us{
-        margin-top: 50px;
+        padding-top: 135px !important;
         .mapouter{
             height: 225px;
             margin-bottom: 50px;
@@ -139,7 +139,7 @@
         }
     }
     .footer{
-        margin-top: 60px;
+        padding-top: 135px !important;
         h2{
             font-size: 2rem;
         }
@@ -156,7 +156,8 @@
             margin-right: 10px;
         }
         .social-box{
-            margin-top: 60px;
+            padding: 0 !important;
+            margin-top: 100px;
             p{
                 font-size: 1rem;
             }
@@ -189,23 +190,7 @@
             }
         }
     }
-    // .rotate{
-    //     transform: rotate(90deg);
-    //     // animation: name duration timing-function delay iteration-count direction fill-mode;
-    //     opacity: 0;
-    //     transition-duration: 2s;
-    //     display: none;
-    // }
-    // .rotate-2{
-    //     transform: rotate(-90deg);
-    //     // animation: name duration timing-function delay iteration-count direction fill-mode;
-    //     opacity: 1;
-    //     transition-duration: 2s;
-    // }
-    // .close-menu{
-    //     position: absolute;
 
-    // }
     .open-menu-mobile{
         label{
             display:flex;

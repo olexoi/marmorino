@@ -58,7 +58,7 @@
     height: 25px;
   }
   #about-us {
-    margin-top: 60px;
+    padding-top: 135px !important;
   }
   #about-us .text-content p {
     font-size: 1rem;
@@ -66,7 +66,7 @@
     margin-bottom: 30px;
   }
   #our-svc {
-    margin-top: 60px;
+    padding-top: 135px !important;
   }
   #our-svc .section-name {
     margin-left: 10px;
@@ -84,7 +84,7 @@
     bottom: 25%;
   }
   #our-works {
-    margin-top: 50px;
+    padding-top: 135px !important;
   }
   #our-works .section-name {
     margin-bottom: 0;
@@ -109,7 +109,7 @@
     display: none;
   }
   #contact-with-us {
-    margin-top: 50px;
+    padding-top: 135px !important;
   }
   #contact-with-us .mapouter {
     height: 225px;
@@ -136,7 +136,7 @@
     font-size: 1rem;
   }
   .footer {
-    margin-top: 60px;
+    padding-top: 135px !important;
   }
   .footer h2 {
     font-size: 2rem;
@@ -154,7 +154,8 @@
     margin-right: 10px;
   }
   footer .social-box {
-    margin-top: 60px;
+    padding: 0 !important;
+    margin-top: 100px;
   }
   footer .social-box p {
     font-size: 1rem;
