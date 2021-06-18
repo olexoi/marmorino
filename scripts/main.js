@@ -21,38 +21,34 @@ $('.owl-carousel').owlCarousel({
     }
 });
 
-
 $('.close-btn').on('click', function () {
    $('.modal-cover').addClass('display-none'); 
 });
+
 $('.modal-cover').on('click', function () {
     $('.modal-cover').addClass('display-none'); 
  });
+
 function showModal(modal_name) {
     $('[data-modal-name='+ modal_name + ']').removeClass('display-none');
-    // console.log($('[data-modal-name='+ modal_name + ']').attr('data-modal-name'));
 }
 
 $('.open-modal').on('click', function () {
     let modal_name = $(this).attr('data-modal-name');
     showModal(modal_name);
 });
+
 $('.modal-svc').on('click', function (e) {
     e.preventDefault();
     e.stopPropagation();
 })
 
-$('.open-menu').on('click', function () {
+$('.open-menu-mobile').on('click', function (e) {
+    $('#check').toggleClass('closed').toggleClass('opened');
     $('.mobile-menu').toggleClass('display-none');
-    $(this).addClass('rotate');
-    $('.close-menu').removeClass('display-none').removeClass('rotate').addClass('rotate-2');
 });
-$('.close-menu').on('click', function () {
-    $('.mobile-menu').toggleClass('display-none');
-    $(this).addClass('rotate');
-    $('.open-menu').removeClass('rotate');
-})
+
 $('.menu-item').on('click', function () {
     $('.mobile-menu').addClass('display-none');
-})
-// showModal('svc-1');
+    $('#check').toggleClass('closed').toggleClass('opened');
+});

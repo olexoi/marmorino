@@ -305,7 +305,9 @@
     <header class="container-fluid">
         <div class="row">
             <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="1500" data-aos-offset="0" class="col-6 col-xl-3">
-                <img class="logo" src="images/logo.png" alt="" width="200px">
+                <a href="">
+                    <img class="logo" src="images/logo.png" alt="" width="200px">
+                </a>
             </div>
             <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="1500" data-aos-offset="0"class="col-6 col-xl-9 d-flex justify-content-end align-items-center">
                <div class="mobile-display-none">
@@ -315,11 +317,14 @@
                     <a href="#our-works">Наші роботи</a>
                     <a href="#contact-with-us">Контакти</a>
                </div>
-               <div class="display-none show-mobile open-menu">
-                    <img src="images/burger-menu.svg"  alt="">
-               </div>
-               <div class="display-none close-menu">
-                   <img src="images/close-btn.svg" alt="">
+    
+               <div class="open-menu-mobile">
+                    <label>
+                        <div class="closed" id="check"> </div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
                </div>
                <div class="mobile-menu display-none">
                     <a class="menu-item" href="#main">Головна</a>

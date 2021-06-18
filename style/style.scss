@@ -4,7 +4,15 @@ $secondary-font: 'Montserrat Alternates', sans-serif;
 $big-font: 'Rufina', sans-serif;
 $number-font:  'Rozha One', serif;
 
-
+.close-menu{
+    display: none;
+}
+.open-menu{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
 section{
     overflow:hidden;
 }

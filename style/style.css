@@ -1,3 +1,15 @@
+.close-menu {
+  display: none;
+}
+
+.open-menu {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
 section {
   overflow: hidden;
 }

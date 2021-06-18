@@ -21,6 +21,9 @@
             align-items: center !important;
   }
   .mobile-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     position: fixed;
     top: 108px;
     bottom: 0;
@@ -28,8 +31,6 @@
     right: 0;
     height: 100vh;
     background-color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -38,6 +39,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
   }
   .main-page-content .main-text h2 {
     font-size: 1rem;
@@ -178,23 +181,52 @@
     right: 20px;
     top: 24px;
   }
-  .rotate {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
-    opacity: 0;
-    -webkit-transition-duration: 2s;
-            transition-duration: 2s;
-    display: none;
+  .open-menu-mobile label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 40px;
+    cursor: pointer;
   }
-  .rotate-2 {
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
-    opacity: 1;
-    -webkit-transition-duration: 2s;
-            transition-duration: 2s;
+  .open-menu-mobile label span {
+    background: black;
+    border-radius: 10px;
+    height: 3px;
+    margin: 5px 0;
+    -webkit-transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
   }
-  .close-menu {
-    position: absolute;
+  .open-menu-mobile span:nth-of-type(1) {
+    width: 50%;
+  }
+  .open-menu-mobile span:nth-of-type(2) {
+    width: 100%;
+  }
+  .open-menu-mobile span:nth-of-type(3) {
+    width: 75%;
+  }
+  .open-menu-mobile .opened ~ span:nth-of-type(1) {
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+    -webkit-transform: rotatez(45deg) translate(5px, 0px);
+            transform: rotatez(45deg) translate(5px, 0px);
+  }
+  .open-menu-mobile .opened ~ span:nth-of-type(2) {
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    -webkit-transform: rotatez(-45deg);
+            transform: rotatez(-45deg);
+  }
+  .open-menu-mobile .opened ~ span:nth-of-type(3) {
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+    width: 50%;
+    -webkit-transform: translate(19px, -7px) rotatez(45deg);
+            transform: translate(19px, -7px) rotatez(45deg);
   }
 }
 /*# sourceMappingURL=mobile.css.map */
