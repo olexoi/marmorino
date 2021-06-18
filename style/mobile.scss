@@ -34,6 +34,11 @@
         transition-duration: 2s;
        
     }
+    header{
+        .logo-box{
+            margin-left: 0 !important;
+        }
+    }
     .main-page-content{
         .main-text{
             h2{
